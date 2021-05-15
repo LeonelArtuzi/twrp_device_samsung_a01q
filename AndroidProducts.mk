@@ -1,0 +1,3 @@
+COMMON_LUNCH_CHOICES := omni_a01q-eng
+
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_a01q.mk
