@@ -50,4 +50,4 @@
 
 # Removable storage
 /usb-otg          auto     /dev/block/sda1         /dev/block/sda     flags=display="USB OTG";storage;removable;wipeingui
-/external_sd      auto     /dev/block/mmcblk0p1                       flags=display="External SD";storage;removable;wipeingui
+/external_sd      auto     /dev/block/mmcblk1p1                       flags=display="External SD";storage;removable;wipeingui
