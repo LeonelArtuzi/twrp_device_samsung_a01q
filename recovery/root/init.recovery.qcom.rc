@@ -119,7 +119,7 @@ on boot
 service recovery /sbin/recovery
     seclabel u:r:recovery:s0
 
-    setprop sys.usb.config mtp,adb
+#    setprop sys.usb.config mtp,adb
     
 #on property:crypto.ready=1
 #    start qseecomd

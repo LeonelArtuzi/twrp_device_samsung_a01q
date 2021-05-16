@@ -1,0 +1,7 @@
+ro.display.series=Samsung Galaxy A01
+ro.product.board=QC_Reference_Phone
+ro.board.platform=msm8937
+#sys.usb.controller=a600000.dwc3
+ro.boot.dynamic_partitions=true
+#fbe.metadata.wrappedkey=true
+#ro.boot.bootdevice=1d84000.ufshc
