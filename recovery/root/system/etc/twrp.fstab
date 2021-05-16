@@ -13,6 +13,8 @@ odm		/odm		ext4							display="Odm";logical,first_stage_mount
 
 
 # Physical partitions
+/super_image   	emmc    /dev/block/bootdevice/by-name/super                       flags=backup=1;display="Super"
+
 /metadata	ext4		/dev/block/bootdevice/by-name/metadata			flags=backup=1;display="Metadata"
 /boot		emmc		/dev/block/bootdevice/by-name/boot              flags=backup=1;display="Boot"
 /recovery	emmc		/dev/block/bootdevice/by-name/recovery			flags=backup=1;display="Recovery";flashimg=1
